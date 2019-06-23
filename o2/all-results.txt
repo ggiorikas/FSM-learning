@@ -1,0 +1,300 @@
+
+
+--- cvs --- 1 ---
+
+
+training sample ["rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-cvs-fsm-cvs-D-1-900     400     0.002608     49.07% 85.79% 87.04% 
+
+training sample ["size":"20000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-20000-fsm-cvs-fsm-cvs-D-1-900     20000     0.115510     64.63% 91.58% 94.84% 
+
+training sample ["size":"40000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-40000-fsm-cvs-fsm-cvs-D-1-900     40000     0.260670     74.28% 94.72% 96.99% 
+
+training sample ["size":"60000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-60000-fsm-cvs-fsm-cvs-D-1-900     60000     0.347472     80.30% 96.36% 97.95% 
+
+training sample ["size":"80000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-80000-fsm-cvs-fsm-cvs-D-1-900     80000     0.481054     84.90% 97.45% 98.53% 
+
+
+--- cvs --- 2 ---
+
+
+training sample ["rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-cvs-fsm-cvs-D-2-900     37     0.007850     72.93% 89.73% 97.81% 
+
+training sample ["size":"20000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-20000-fsm-cvs-fsm-cvs-D-2-900     114     0.157196     93.43% 97.50% 99.32% 
+
+training sample ["size":"40000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-40000-fsm-cvs-fsm-cvs-D-2-900     92     0.285552     97.01% 98.94% 99.75% 
+
+training sample ["size":"60000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-60000-fsm-cvs-fsm-cvs-D-2-900     106     0.474047     98.11% 99.36% 99.86% 
+
+training sample ["size":"80000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-80000-fsm-cvs-fsm-cvs-D-2-900     90     0.526801     99.04% 99.68% 99.93% 
+
+
+--- cvs --- 3 ---
+
+
+training sample ["rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-cvs-fsm-cvs-D-3-900     19     0.003731     100.00% 100.00% 100.00% 
+
+training sample ["size":"20000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-20000-fsm-cvs-fsm-cvs-D-3-900     20     0.150462     97.72% 99.09% 99.73% 
+
+training sample ["size":"40000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-40000-fsm-cvs-fsm-cvs-D-3-900     23     0.282402     99.16% 99.69% 99.93% 
+
+training sample ["size":"60000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-60000-fsm-cvs-fsm-cvs-D-3-900     19     0.382797     99.96% 99.98% 100.00% 
+
+training sample ["size":"80000", "rseed":"2", "fsm-fname":"fsm/cvs", "gen-method":"walk"] 
+
+o2/learned-o2-walk-2-80000-fsm-cvs-fsm-cvs-D-3-900     19     0.208729     100.00% 100.00% 100.00% 
+
+
+--- editor --- 1 ---
+
+
+training sample ["rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-editor-fsm-editor-D-1-900     47     0.000266     53.97% 81.58% 87.59% 
+
+training sample ["size":"100", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-100-fsm-editor-fsm-editor-D-1-900     100     0.000370     26.33% 65.22% 73.57% 
+
+training sample ["size":"200", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-200-fsm-editor-fsm-editor-D-1-900     200     0.000704     31.27% 68.39% 76.83% 
+
+training sample ["size":"300", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-300-fsm-editor-fsm-editor-D-1-900     300     0.001018     42.05% 75.84% 82.17% 
+
+training sample ["size":"400", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-400-fsm-editor-fsm-editor-D-1-900     400     0.001218     43.11% 76.55% 82.78% 
+
+training sample ["size":"500", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-500-fsm-editor-fsm-editor-D-1-900     500     0.001521     49.23% 80.03% 85.37% 
+
+
+--- editor --- 2 ---
+
+
+training sample ["rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-editor-fsm-editor-D-2-900     11     0.000468     29.39% 74.33% 86.13% 
+
+training sample ["size":"100", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-100-fsm-editor-fsm-editor-D-2-900     13     0.000621     62.31% 81.16% 90.65% 
+
+training sample ["size":"200", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-200-fsm-editor-fsm-editor-D-2-900     22     0.001752     69.03% 85.11% 92.55% 
+
+training sample ["size":"300", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-300-fsm-editor-fsm-editor-D-2-900     22     0.001502     83.30% 92.48% 96.45% 
+
+training sample ["size":"400", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-400-fsm-editor-fsm-editor-D-2-900     20     0.001844     86.27% 93.92% 97.19% 
+
+training sample ["size":"500", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-500-fsm-editor-fsm-editor-D-2-900     20     0.003019     91.08% 96.13% 98.44% 
+
+
+--- editor --- 3 ---
+
+
+training sample ["rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-editor-fsm-editor-D-3-900     6     0.000234     100.00% 100.00% 100.00% 
+
+training sample ["size":"100", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-100-fsm-editor-fsm-editor-D-3-900     5     0.000291     63.90% 80.99% 91.36% 
+
+training sample ["size":"200", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-200-fsm-editor-fsm-editor-D-3-900     6     0.000451     90.25% 94.22% 97.84% 
+
+training sample ["size":"300", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-300-fsm-editor-fsm-editor-D-3-900     6     0.001027     97.22% 98.72% 99.49% 
+
+training sample ["size":"400", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-400-fsm-editor-fsm-editor-D-3-900     6     0.002256     97.22% 98.72% 99.49% 
+
+training sample ["size":"500", "rseed":"3", "fsm-fname":"fsm/editor", "gen-method":"walk"] 
+
+o2/learned-o2-walk-3-500-fsm-editor-fsm-editor-D-3-900     6     0.001416     100.00% 100.00% 100.00% 
+
+
+--- jhotdraw --- 1 ---
+
+
+training sample ["rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-jhotdraw-fsm-jhotdraw-D-1-900     98     0.000403     57.59% 84.62% 86.63% 
+
+training sample ["size":"250", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-250-fsm-jhotdraw-fsm-jhotdraw-D-1-900     250     0.000842     37.54% 70.78% 77.14% 
+
+training sample ["size":"500", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-500-fsm-jhotdraw-fsm-jhotdraw-D-1-900     500     0.001472     47.67% 79.51% 82.95% 
+
+training sample ["size":"750", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-750-fsm-jhotdraw-fsm-jhotdraw-D-1-900     750     0.002344     48.55% 80.44% 83.59% 
+
+training sample ["size":"1000", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-1000-fsm-jhotdraw-fsm-jhotdraw-D-1-900     1000     0.002838     50.99% 81.83% 85.22% 
+
+
+--- jhotdraw --- 2 ---
+
+
+training sample ["rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-jhotdraw-fsm-jhotdraw-D-2-900     17     0.000837     48.42% 78.97% 89.35% 
+
+training sample ["size":"250", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-250-fsm-jhotdraw-fsm-jhotdraw-D-2-900     27     0.002008     54.73% 78.68% 91.09% 
+
+training sample ["size":"500", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-500-fsm-jhotdraw-fsm-jhotdraw-D-2-900     37     0.003089     71.03% 88.05% 94.63% 
+
+training sample ["size":"750", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-750-fsm-jhotdraw-fsm-jhotdraw-D-2-900     47     0.003544     73.87% 90.26% 95.64% 
+
+training sample ["size":"1000", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-1000-fsm-jhotdraw-fsm-jhotdraw-D-2-900     52     0.004998     76.74% 91.39% 96.19% 
+
+
+--- jhotdraw --- 3 ---
+
+
+training sample ["rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-jhotdraw-fsm-jhotdraw-D-3-900     9     0.000673     100.00% 100.00% 100.00% 
+
+training sample ["size":"250", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-250-fsm-jhotdraw-fsm-jhotdraw-D-3-900     7     0.000694     67.11% 84.39% 93.28% 
+
+training sample ["size":"500", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-500-fsm-jhotdraw-fsm-jhotdraw-D-3-900     8     0.000980     91.40% 96.51% 98.83% 
+
+training sample ["size":"750", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-750-fsm-jhotdraw-fsm-jhotdraw-D-3-900     8     0.001447     94.86% 97.96% 99.42% 
+
+training sample ["size":"1000", "rseed":"4", "fsm-fname":"fsm/jhotdraw", "gen-method":"walk"] 
+
+o2/learned-o2-walk-4-1000-fsm-jhotdraw-fsm-jhotdraw-D-3-900     9     0.002775     100.00% 100.00% 100.00% 
+
+
+--- elevator --- 1 ---
+
+
+training sample ["rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-elevator-fsm-elevator-D-1-900     36     0.000231     43.32% 66.15% 67.81% 
+
+training sample ["size":"200", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-200-fsm-elevator-fsm-elevator-D-1-900     200     0.000664     33.68% 66.28% 76.28% 
+
+training sample ["size":"400", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-400-fsm-elevator-fsm-elevator-D-1-900     400     0.001589     43.79% 74.57% 82.00% 
+
+training sample ["size":"600", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-600-fsm-elevator-fsm-elevator-D-1-900     600     0.001965     53.05% 80.57% 86.22% 
+
+training sample ["size":"800", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-800-fsm-elevator-fsm-elevator-D-1-900     800     0.002439     58.19% 83.57% 88.24% 
+
+
+--- elevator --- 2 ---
+
+
+training sample ["rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-elevator-fsm-elevator-D-2-900     27     0.000828     5.26% 49.02% 73.10% 
+
+training sample ["size":"200", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-200-fsm-elevator-fsm-elevator-D-2-900     53     0.001697     30.94% 70.20% 85.16% 
+
+training sample ["size":"400", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-400-fsm-elevator-fsm-elevator-D-2-900     55     0.002677     77.85% 89.01% 95.29% 
+
+training sample ["size":"600", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-600-fsm-elevator-fsm-elevator-D-2-900     37     0.004693     87.42% 94.93% 98.23% 
+
+training sample ["size":"800", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-800-fsm-elevator-fsm-elevator-D-2-900     38     0.004538     92.20% 96.78% 98.82% 
+
+
+--- elevator --- 3 ---
+
+
+training sample ["rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"cs"] 
+
+o2/learned-o2-cs-fsm-elevator-fsm-elevator-D-3-900     7     0.000296     100.00% 100.00% 100.00% 
+
+training sample ["size":"200", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-200-fsm-elevator-fsm-elevator-D-3-900     7     0.000419     79.80% 89.55% 95.54% 
+
+training sample ["size":"400", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-400-fsm-elevator-fsm-elevator-D-3-900     7     0.000934     94.13% 97.41% 99.01% 
+
+training sample ["size":"600", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-600-fsm-elevator-fsm-elevator-D-3-900     7     0.000984     97.99% 99.14% 99.75% 
+
+training sample ["size":"800", "rseed":"5", "fsm-fname":"fsm/elevator", "gen-method":"walk"] 
+
+o2/learned-o2-walk-5-800-fsm-elevator-fsm-elevator-D-3-900     7     0.002288     100.00% 100.00% 100.00% 

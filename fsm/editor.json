@@ -1,0 +1,75 @@
+{
+  "input-alphabet": [
+    "close", 
+    "edit", 
+    "exit", 
+    "load", 
+    "save"
+  ], 
+  "transition-function": {
+    "q_init": {
+      "load": "1", 
+      "close": "q_error", 
+      "save": "q_error", 
+      "exit": "2", 
+      "edit": "q_error"
+    }, 
+    "q_error": {
+      "load": "q_error", 
+      "close": "q_error", 
+      "save": "q_error", 
+      "exit": "q_error", 
+      "edit": "q_error"
+    }, 
+    "1": {
+      "load": "q_error", 
+      "close": "0", 
+      "save": "q_error", 
+      "exit": "2", 
+      "edit": "3"
+    }, 
+    "0": {
+      "load": "1", 
+      "close": "q_error", 
+      "save": "q_error", 
+      "exit": "2", 
+      "edit": "q_error"
+    }, 
+    "3": {
+      "load": "q_error", 
+      "close": "0", 
+      "save": "1", 
+      "exit": "2", 
+      "edit": "3"
+    }, 
+    "2": {
+      "load": "q_error", 
+      "close": "q_error", 
+      "save": "q_error", 
+      "exit": "2", 
+      "edit": "q_error"
+    }
+  }, 
+  "states": [
+    "0", 
+    "1", 
+    "2", 
+    "3", 
+    "q_error", 
+    "q_init"
+  ], 
+  "output-function": {
+    "q_init": "INIT", 
+    "q_error": "ERROR", 
+    "1": "OK", 
+    "0": "OK", 
+    "3": "OK", 
+    "2": "OK"
+  }, 
+  "initial-state": "q_init", 
+  "output-alphabet": [
+    "ERROR", 
+    "INIT", 
+    "OK"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "input-alphabet": [
+    "e11", 
+    "e12", 
+    "e2", 
+    "e3", 
+    "e4"
+  ], 
+  "transition-function": {
+    "q_init": {
+      "e11": "1", 
+      "e4": "q_error", 
+      "e12": "q_error", 
+      "e3": "q_error", 
+      "e2": "q_error"
+    }, 
+    "0": {
+      "e11": "1", 
+      "e4": "q_error", 
+      "e12": "q_error", 
+      "e3": "q_error", 
+      "e2": "q_error"
+    }, 
+    "1": {
+      "e11": "q_error", 
+      "e4": "2", 
+      "e12": "q_error", 
+      "e3": "q_error", 
+      "e2": "3"
+    }, 
+    "q_error": {
+      "e11": "q_error", 
+      "e4": "q_error", 
+      "e12": "q_error", 
+      "e3": "q_error", 
+      "e2": "q_error"
+    }, 
+    "3": {
+      "e11": "q_error", 
+      "e4": "q_error", 
+      "e12": "4", 
+      "e3": "q_error", 
+      "e2": "q_error"
+    }, 
+    "2": {
+      "e11": "q_error", 
+      "e4": "2", 
+      "e12": "q_error", 
+      "e3": "q_error", 
+      "e2": "q_error"
+    }, 
+    "4": {
+      "e11": "q_error", 
+      "e4": "2", 
+      "e12": "q_error", 
+      "e3": "1", 
+      "e2": "0"
+    }
+  }, 
+  "states": [
+    "0", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "q_error", 
+    "q_init"
+  ], 
+  "output-function": {
+    "q_init": "INIT", 
+    "0": "OK", 
+    "1": "z1", 
+    "q_error": "ERROR", 
+    "3": "OK", 
+    "2": "z3", 
+    "4": "z2"
+  }, 
+  "initial-state": "q_init", 
+  "output-alphabet": [
+    "ERROR", 
+    "INIT", 
+    "OK", 
+    "z1", 
+    "z2", 
+    "z3"
+  ]
+}

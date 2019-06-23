@@ -1,0 +1,112 @@
+{
+  "input-alphabet": [
+    "edit", 
+    "figure", 
+    "finalise", 
+    "setdim", 
+    "setpos", 
+    "text"
+  ], 
+  "transition-function": {
+    "q_init": {
+      "setdim": "q_error", 
+      "figure": "1", 
+      "edit": "q_error", 
+      "text": "2", 
+      "setpos": "q_error", 
+      "finalise": "q_error"
+    }, 
+    "0": {
+      "setdim": "q_error", 
+      "figure": "1", 
+      "edit": "q_error", 
+      "text": "2", 
+      "setpos": "q_error", 
+      "finalise": "q_error"
+    }, 
+    "1": {
+      "setdim": "q_error", 
+      "figure": "1", 
+      "edit": "q_error", 
+      "text": "2", 
+      "setpos": "3", 
+      "finalise": "q_error"
+    }, 
+    "q_error": {
+      "setdim": "q_error", 
+      "figure": "q_error", 
+      "edit": "q_error", 
+      "text": "q_error", 
+      "setpos": "q_error", 
+      "finalise": "q_error"
+    }, 
+    "3": {
+      "setdim": "5", 
+      "figure": "q_error", 
+      "edit": "q_error", 
+      "text": "q_error", 
+      "setpos": "q_error", 
+      "finalise": "q_error"
+    }, 
+    "2": {
+      "setdim": "q_error", 
+      "figure": "1", 
+      "edit": "q_error", 
+      "text": "2", 
+      "setpos": "4", 
+      "finalise": "q_error"
+    }, 
+    "5": {
+      "setdim": "5", 
+      "figure": "1", 
+      "edit": "q_error", 
+      "text": "2", 
+      "setpos": "q_error", 
+      "finalise": "q_error"
+    }, 
+    "4": {
+      "setdim": "q_error", 
+      "figure": "q_error", 
+      "edit": "6", 
+      "text": "q_error", 
+      "setpos": "q_error", 
+      "finalise": "q_error"
+    }, 
+    "6": {
+      "setdim": "q_error", 
+      "figure": "q_error", 
+      "edit": "q_error", 
+      "text": "q_error", 
+      "setpos": "q_error", 
+      "finalise": "0"
+    }
+  }, 
+  "states": [
+    "0", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5", 
+    "6", 
+    "q_error", 
+    "q_init"
+  ], 
+  "output-function": {
+    "q_init": "INIT", 
+    "0": "OK", 
+    "1": "OK", 
+    "q_error": "ERROR", 
+    "3": "OK", 
+    "2": "OK", 
+    "5": "OK", 
+    "4": "OK", 
+    "6": "OK"
+  }, 
+  "initial-state": "q_init", 
+  "output-alphabet": [
+    "ERROR", 
+    "INIT", 
+    "OK"
+  ]
+}
